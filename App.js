@@ -6,7 +6,7 @@ import Home from './screens/home'
 import About from './screens/about'
 import ReviewDetails from './screens/reviewDetails'
 //react navigation
-import { NavigationContainer } from '@react-navigation/native';
+import { HomeStack } from "./routes/homeStack";
 //
 import AppLoading from 'expo-app-loading'
 //so we can use external fonts
@@ -26,7 +26,7 @@ export default function App() {
   //if the fonts are already loaded start regularly
   if(fontsLoaded) {
     return (
-      <Home />
+      <HomeStack />
     )
   }
   //load the fonts and then start
