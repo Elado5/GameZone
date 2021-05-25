@@ -14,7 +14,7 @@ import * as Font from 'expo-font'
 
 
 const getFonts = () => Font.loadAsync({
-    'nunito-regular' : require('./assets/fonts/nunito-regular.ttf'),
+    'nunito-regular': require('./assets/fonts/nunito-regular.ttf'),
     'nunito-bold': require('./assets/fonts/nunito-bold.ttf')
   })
 
